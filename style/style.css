@@ -1,0 +1,694 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+img {
+  max-width: 100%;
+}
+p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            Header Section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.header {
+  padding: 50px 0px 0px 0px;
+  background: linear-gradient(to bottom, #141414, #222222, #141414);
+}
+.nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.logo {
+  width: 20%;
+  color: rgb(230, 83, 60);
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+.manu {
+  width: 49%;
+  text-align: end;
+}
+
+.manu ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+}
+.manu ul li {
+  list-style: none;
+  margin-left: 50px;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 10px 25px;
+  border-radius: 40px;
+}
+.color {
+  background-color: rgb(230, 83, 60);
+  color: white;
+  font-weight: 600;
+  text-align: left;
+}
+.bar {
+  color: white;
+  font-size: 2rem;
+  display: none;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            Banner Section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.banner {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-text {
+  width: 50%;
+  text-align: left;
+}
+.banner-text h1 {
+  color: white;
+  font-size: 8rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.banner-title {
+  font-family: "Miama", sans-serif;
+}
+.btn {
+  width: 200px;
+  height: 60px;
+  margin-top: 25px;
+  margin-right: 15px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(230, 83, 60);
+  border-radius: 40px;
+  border: none;
+}
+.btn-1 {
+  box-sizing: border-box;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.banner-img {
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+
+#play {
+  position: absolute;
+  top: 360px;
+  right: 540px;
+}
+.card {
+  width: 190px;
+  height: 90px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(3px);
+  background: rgba(48, 48, 48, 0.54);
+  position: absolute;
+  right: 370px;
+  bottom: 70px;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(230, 83, 60);
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.video h2 {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+.card1 {
+  width: 190px;
+  height: 100px;
+  font-size: 4rem;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  left: 340px;
+  bottom: 270px;
+}
+.card1 h1 {
+  margin-top: 10px;
+  color: white;
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.card1 p {
+  font-size: 1.4rem;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            Hobit Section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+main {
+  background-color: #000000;
+}
+.habits-section {
+  width: 80%;
+  margin: 0 auto;
+  color: aliceblue;
+}
+.title {
+  color: white;
+  font-size: 5rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 15px;
+}
+.description {
+  color: rgb(34, 34, 34);
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+}
+.habits-section-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.habits-content {
+  text-align: center;
+}
+.habits-content img {
+  border-radius: 50%;
+}
+.habits-content h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            Run Section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.run-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.run-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  padding: 30px 30px 30px 60px;
+}
+.run-content {
+  width: 50%;
+  text-align: left;
+}
+.run-content h2 {
+  color: white;
+  font-size: 5.5rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.run-content p {
+  line-height: 25px;
+}
+.btn-3 {
+  width: 190px;
+  height: 55px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.run-img {
+  text-align: end;
+  width: 50%;
+}
+.run-img img {
+  max-width: 100%;
+  height: 312px;
+  border-radius: 20px;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            BMI Section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.BMI-Section {
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 300px;
+  margin-bottom: 90px;
+}
+.BMI-Section h1 {
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 120%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.BMI-Calculator-section {
+  background: rgb(34, 34, 34);
+}
+.BMI-Container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calculator-chart {
+  width: 50%;
+}
+.BMI-title {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.sub-title {
+  margin-top: 55px;
+  margin-bottom: 14px;
+  text-align: left;
+}
+.BMI-description {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: left;
+}
+th {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.calculator-BMI {
+  width: 50%;
+}
+input {
+  width: 210px;
+  height: 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+  padding: 20px;
+  border: none;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+select {
+  width: 250px;
+  height: 60px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  border: none;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.select-factor {
+  width: 516px;
+  padding: 15px;
+}
+.btn-4 {
+  width: 220px;
+  margin-bottom: 50px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            Make Section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.sign-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-image: url("../images/exercise6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+.sign-up-container {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 110px;
+}
+.sign-up-container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 50px;
+}
+.action {
+  color: rgb(230, 83, 60);
+  font-size: 5rem;
+}
+
+.btn-5 {
+  width: 400px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  text-align: start;
+  padding-left: 20px;
+  margin-right: 10px;
+  color: white;
+}
+
+#submit {
+  color: white;
+  border: 1px solid white;
+  background-color: rgb(230, 83, 60);
+  padding: 17px 25px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            Team Section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.team-section {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.team-container {
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 60px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 2fr);
+  border-radius: 16px;
+  opacity: 0.8;
+  padding: 20px;
+}
+.team-members {
+  position: relative;
+}
+
+.team-members img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+.team-member-details {
+  position: absolute;
+  left: 20px;
+  bottom: 25px;
+}
+.team-member-details h3 {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            Footer Section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+footer {
+  background: rgb(34, 34, 34);
+}
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-align: left;
+  padding-top: 70px;
+}
+
+.footer-logo {
+  font-size: 7rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.footer-content-1 p {
+  line-height: 25px;
+}
+.start-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.f-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.hr {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.footer-down {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            Responsive 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+@media (max-width: 576px) {
+  .nav,
+  .banner,
+  .habits-section,
+  .run-section,
+  .BMI-Container,
+  .sign-section,
+  .team-section,
+  .footer-container {
+    width: 90%;
+  }
+  .logo {
+    font-size: 3rem;
+  }
+  .manu ul {
+    display: none;
+  }
+  .bar {
+    display: block;
+  }
+  .hub {
+    display: none;
+  }
+
+  .banner-container {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .banner-text {
+    width: 100%;
+  }
+
+  .banner-text h1 {
+    font-size: 5.5rem;
+  }
+  .btn {
+    width: 175px;
+    font-size: 1.2rem;
+    margin-right: 15px;
+  }
+  .banner-img {
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+  }
+  #play {
+    top: 305px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+  .card {
+    bottom: 235px;
+    left: 15px;
+  }
+  .card1 {
+    width: 180px;
+    top: -220px;
+    left: 190px;
+  }
+
+  .card1 p {
+    font-size: 1rem;
+  }
+
+  .habits-section-container,
+  .run-container,
+  .BMI-Container,
+  .footer-container {
+    flex-direction: column;
+  }
+  .run-container {
+    text-align: center;
+    padding: 40px;
+  }
+  .run-content h2 {
+    font-size: 4.5rem;
+  }
+  .run-img {
+    text-align: center;
+  }
+
+  .btn-3 {
+    text-align: center;
+    width: 310px;
+  }
+  .run-content,
+  .run-img,
+  .calculator-chart,
+  .calculator-BMI,
+  .footer-content-1,
+  .footer-content-2,
+  .footer-content-3,
+  .hr {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .BMI-Section {
+    text-align: start;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  .BMI-Section h1 {
+    font-size: 3.5rem;
+  }
+  .btn-4 {
+    width: 240px;
+  }
+  .sign-up-container {
+    padding: 70px;
+    text-align: center;
+  }
+  .sign-up-container h1 {
+    font-size: 1.5rem;
+  }
+  .action {
+    font-size: 3rem;
+  }
+  .btn-5 {
+    width: 270px;
+    margin-bottom: 15px;
+  }
+  .team-container {
+    grid-template-columns: repeat(1, 6fr);
+  }
+  .first-img {
+    display: none;
+  }
+
+  input {
+    width: 130px;
+    height: 15px;
+  }
+  select {
+    width: 170px;
+    height: 60px;
+  }
+  .select-factor {
+    width: 360px;
+  }
+}
